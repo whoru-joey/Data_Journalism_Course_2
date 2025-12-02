@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>课程介绍与展示平台</title>
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">让数据说话，让故事更有力量</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link" data-nav-link>首页</a></li>
+          <li><a href="#portfolio" class="navbar-link" data-nav-link>课程模块</a></li>
+          <li><a href="#skills" class="navbar-link" data-nav-link>学习技能</a></li>
+          <li><a href="#timeline" class="navbar-link" data-nav-link>课程安排</a></li>
+          <li><a href="#projects" class="navbar-link" data-nav-link>学生作品</a></li>
+          <li><a href="#news" class="navbar-link" data-nav-link>课程资讯</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>联系我们</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- Hero Section -->
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
+            <img src="./assets/images/背景图1.jpeg" width="640" height="840" alt="数据新闻课堂" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+            <p class="section-subtitle">华南理工大学新闻传播学院<br>人工智能与数据新闻</p>
+            <h1 class="h1 hero-title">课程介绍与展示</h1>
+
+            <ul class="hero-list">
+                 <li><a href="./pages/data-analysis1.html" class="list-link"><span class="span">数据处理与分析</span><ion-icon name="arrow-forward-outline"></ion-icon></a></li>
+                 <li><a href="./pages/data-visualization1.html" class="list-link"><span class="span">可视化设计与表达</span><ion-icon name="arrow-forward-outline"></ion-icon></a></li>
+                 <li><a href="./pages/data-ethics.html" class="list-link"><span class="span">新闻故事与社会价值</span><ion-icon name="arrow-forward-outline"></ion-icon></a></li>
+            </ul>
+
+            <ul class="exp-list">
+              <li class="list-item"><strong class="strong">2+</strong><span class="span">年课程<br>建设经验</span></li>
+              <li class="list-item"><strong class="strong">10+</strong><span class="span">优秀学生<br>成果展示</span></li>
+            </ul>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 课程模块 Section -->
+      <section class="section portfolio" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">课程模块</p>
+          <h2 class="h2 section-title">主要学习内容</h2>
+
+          <ul class="has-scrollbar">
+            <li class="scrollbar-item">
+              <div class="card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/背景图2.jpg" class="img-cover" alt="数据搜集与清洗">
+                </figure>
+                <a href="#" class="card-content">
+                  <h3 class="h3 card-title">新闻选题与策划</h3>
+                  <p class="card-text">关注社会公共价值</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/背景图3.png" class="img-cover" alt="数据分析方法">
+                </figure>
+                <a href="#" class="card-content">
+                  <h3 class="h3 card-title">AI辅助的数据处理与分析</h3>
+                  <p class="card-text">Python · Excel · R</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/背景图4.png" class="img-cover" alt="可视化设计">
+                </figure>
+                <a href="#" class="card-content">
+                  <h3 class="h3 card-title">AI辅助的可视化设计</h3>
+                  <p class="card-text">R · Tableau · Flourish</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/背景图5.png" class="img-cover" alt="数据叙事与写作">
+                </figure>
+                <a href="#" class="card-content">
+                  <h3 class="h3 card-title">AI辅助的数据叙事与写作</h3>
+                  <p class="card-text">新闻故事策划与写作</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 课程安排 Section -->
+      <section class="section" id="timeline" aria-label="timeline">
+        <div class="container">
+          <p class="section-subtitle">课程安排</p>
+          <h2 class="h2 section-title">课程时间线</h2>
+
+          <ul class="timeline-list">
+            <li class="timeline-item-custom">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content-custom">
+                <h3 class="item-period-custom"><i class="fas fa-calendar-alt"></i>第1-2周</h3>
+                <p class="item-title-custom">数据新闻基础与数据获取</p>
+                <p class="item-address-custom"><i class="fas fa-laptop-house"></i>线上课程 + 实践工作坊</p>
+                <div class="course-details">
+                  <div class="detail-item">
+                    <i class="fas fa-book"></i>
+                    <span class="detail-text">数据新闻概念与历史发展</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-database"></i>
+                    <span class="detail-text">公开数据源获取方法</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <span class="detail-text">数据伦理与规范</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item-custom">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content-custom">
+                <h3 class="item-period-custom"><i class="fas fa-calendar-alt"></i>第3-5周</h3>
+                <p class="item-title-custom">数据清洗与预处理</p>
+                <p class="item-address-custom"><i class="fas fa-flask"></i>实验室实践 + 小组项目</p>
+                <div class="course-details">
+                  <div class="detail-item">
+                    <i class="fas fa-table"></i>
+                    <span class="detail-text">R语言高级数据处理技巧</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-tools"></i>
+                    <span class="detail-text">R语言数据清洗</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-broom"></i>
+                    <span class="detail-text">AI辅助的编程训练</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item-custom">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content-custom">
+                <h3 class="item-period-custom"><i class="fas fa-calendar-alt"></i>第6-8周</h3>
+                <p class="item-title-custom">数据分析与统计基础</p>
+                <p class="item-address-custom"><i class="fas fa-chart-line"></i>线上课程 + 数据分析项目</p>
+                <div class="course-details">
+                  <div class="detail-item">
+                    <i class="fas fa-calculator"></i>
+                    <span class="detail-text">基本统计概念与方法</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fab fa-python"></i>
+                    <span class="detail-text">R语言/Python数据分析</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-search"></i>
+                    <span class="detail-text">AI辅助的数据模式与趋势发现</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item-custom">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content-custom">
+                <h3 class="item-period-custom"><i class="fas fa-calendar-alt"></i>第9-12周</h3>
+                <p class="item-title-custom">数据可视化原理与实践</p>
+                <p class="item-address-custom"><i class="fas fa-palette"></i>设计工作室 + 可视化项目</p>
+                <div class="course-details">
+                  <div class="detail-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <span class="detail-text">可视化设计原则</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="detail-text">R语言、Tableau与Datawrapper工具</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-exchange-alt"></i>
+                    <span class="detail-text">AI辅助的交互式图表制作</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item-custom">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content-custom">
+                <h3 class="item-period-custom"><i class="fas fa-calendar-alt"></i>第13-15周</h3>
+                <p class="item-title-custom">数据新闻叙事与作品制作</p>
+                <p class="item-address-custom"><i class="fas fa-tasks"></i>项目指导 + 作品完善</p>
+                <div class="course-details">
+                  <div class="detail-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <span class="detail-text">数据新闻内容整合</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-book-open"></i>
+                    <span class="detail-text">数据叙事技巧与方法</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-desktop"></i>
+                    <span class="detail-text">AI辅助的新闻网页制作</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 优秀作品 Section -->
+      <section class="section projects" id="projects" aria-label="projects">
+      <div class="container">
+      <p class="section-subtitle">学生作品</p>
+      <h2 class="h2 section-title">获奖作品展示</h2>
+
+      <div class="projects-carousel">
+        <div class="carousel-track" id="carouselTrack">
+          <!-- 项目1 -->
+          <div class="carousel-item">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/跨境学童.png">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="./pages/student-work1.html">跨境学童：不仅仅是跨过一道关</a>
+                </h3>
+                <p class="project-author">作者：刘思言、高慧盈、骆嘉怡<br>年级：2021级</p>
+                <p class="project-description">每天清晨，在深圳通往香港的各个口岸，都能看见这样的场景——穿着制服、背着快有半个自己大的书包的学生...</p>
+                <div class="project-tags">
+                  <span class="project-tag">跨境学童</span>
+                  <span class="project-tag">香港与内地</span>
+                  <span class="project-tag">R语言可视化</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 项目2 -->
+          <div class="carousel-item">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/一带一路.jpg">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="student-work.html?id=2">丝路朝阳 十年灿灿——“一带一路”十周年成就巡礼</a>
+                </h3>
+                <p class="project-author">作者：孙静芬、朱思颖、肖霄<br>年级：2021级</p>
+                <p class="project-description">基于中国与“一带一路”国家的海关贸易数据进行数据清洗和统计分析，制作数据新闻报告。</p>
+                <div class="project-tags">
+                  <span class="project-tag">一带一路</span>
+                  <span class="project-tag">海关数据</span>
+                  <span class="project-tag">大规模数据分析</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 项目3 -->
+          <div class="carousel-item">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/宠物殡葬.png">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="student-work.html?id=3">宠物殡葬：当生死成为生意</a>
+                </h3>
+                <p class="project-author">作者：李嘉怡、刘燕寰、郭泳兰<br>2021级</p>
+                <p class="project-description">利用宠物殡葬行业与在线店铺数据，分析宠物殡葬行业的消费与营销模式，使用Readymag制作新闻作品网页，展示独到观点。</p>
+                <div class="project-tags">
+                  <span class="project-tag">宠物殡葬</span>
+                  <span class="project-tag">Readymag</span>
+                  <span class="project-tag">行业分析</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 项目4 -->
+          <div class="carousel-item">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/法律之疤.png">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="student-work.html?id=4">法律之“疤” | 出狱者的二次人生路</a>
+                </h3>
+                <p class="project-author">作者：戴诗琪、章雯慧、陈蕊、许奕真<br>2022级</p>
+                <p class="project-description">毛徽，纪录片《人生第二次》中“非”篇的主人公。2021年9月8日，被判处11年有期徒刑的毛徽刑满释放，走出监狱的大门，他开始了自己新的人生。</p>
+                <div class="project-tags">
+                  <span class="project-tag">出狱者</span>
+                  <span class="project-tag">法律与社会</span>
+                  <span class="project-tag">可视化设计</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 项目5 -->
+          <div class="carousel-item">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/延迟退休.png">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="student-work.html?id=5">全球视角下看延迟退休：中国如何在全球老龄化浪潮中“破浪前行”</a>
+                </h3>
+                <p class="project-author">作者：李安琪、费子隽、黄灿、唐蕴琦、林铮阳<br>2022级</p>
+                <p class="project-description">从2025年1月1日起，用15年时间，逐步将男职工的法定退休年龄从原60周岁延迟到63周岁...</p>
+                <div class="project-tags">
+                  <span class="project-tag">延迟退休</span>
+                  <span class="project-tag">全球政策对比</span>
+                  <span class="project-tag">数据分析</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        <!-- 项目6 -->
+          <div class="carousel-item">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/医闹频发.png">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="student-work.html?id=6">医闹频发，白衣之路何处是岸？</a>
+                </h3>
+                <p class="project-author">作者：张舒萍、曾乔芸、陈雨芊、宋婉津、陈梦莹<br>2022级</p>
+                <p class="project-description">李晟医生，一名心血管内科主治医师，他像往常一样，牺牲自己的午休时间，为患者加号看诊，一直忙碌到下午一点多还没顾上吃午饭。</p>
+                <div class="project-tags">
+                  <span class="project-tag">医患纠纷</span>
+                  <span class="project-tag">案例描述</span>
+                  <span class="project-tag">数据分析</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-nav" id="carouselNav">
+          <!-- 导航点将由JavaScript生成 -->
+        </div>
+      </div>
+    </div>
+    </section>
+
+      <!-- 新闻资讯 Section -->
+      <section class="section news" id="news" aria-label="news">
+        <div class="container">
+          <p class="section-subtitle">课程资讯</p>
+          <h2 class="h2 section-title">课程动态与进展</h2>
+
+          <div class="news-grid">
+            <div class="news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="数据新闻大赛">
+              </div>
+              <div class="news-content">
+                <p class="news-date">2024年5月15日</p>
+                <h3 class="news-title">我校学生在2024全国数据新闻大赛中荣获一等奖</h3>
+                <p class="news-excerpt">在刚刚结束的全国数据新闻大赛中，我校新闻学院学生李明凭借作品《城市空气质量数据可视化分析》荣获一等奖...</p>
+                <a href="#" class="news-link">阅读更多 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="新课程发布">
+              </div>
+              <div class="news-content">
+                <p class="news-date">2024年4月28日</p>
+                <h3 class="news-title">数据新闻课程新增Python数据分析模块</h3>
+                <p class="news-excerpt">为适应行业发展需求，本学期数据新闻课程新增Python数据分析模块，帮助学生掌握更先进的数据处理技能...</p>
+                <a href="#" class="news-link">阅读更多 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="行业合作">
+              </div>
+              <div class="news-content">
+                <p class="news-date">2024年4月10日</p>
+                <h3 class="news-title">与知名媒体达成数据新闻合作项目</h3>
+                <p class="news-excerpt">我校新闻学院与知名媒体机构达成合作协议，将为数据新闻课程学生提供实习机会和真实项目实践平台...</p>
+                <a href="#" class="news-link">阅读更多 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="学术讲座">
+              </div>
+              <div class="news-content">
+                <p class="news-date">2024年3月22日</p>
+                <h3 class="news-title">数据新闻前沿讲座：AI在新闻生产中的应用</h3>
+                <p class="news-excerpt">特邀业界专家分享人工智能技术在数据新闻生产中的最新应用，探讨AI如何改变新闻生产流程...</p>
+                <a href="#" class="news-link">阅读更多 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="学生获奖">
+              </div>
+              <div class="news-content">
+                <p class="news-date">2024年3月5日</p>
+                <h3 class="news-title">三名学生作品入选全国数据新闻优秀案例集</h3>
+                <p class="news-excerpt">我校新闻学院三名学生的数据新闻作品成功入选全国数据新闻优秀案例集，展现了学院数据新闻教学的卓越成果...</p>
+                <a href="#" class="news-link">阅读更多 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="课程改革">
+              </div>
+              <div class="news-content">
+                <p class="news-date">2024年2月18日</p>
+                <h3 class="news-title">数据新闻课程教学改革取得显著成效</h3>
+                <p class="news-excerpt">经过一学期的教学改革实践，数据新闻课程的学生满意度和作品质量均有显著提升，教学改革取得阶段性成果...</p>
+                <a href="#" class="news-link">阅读更多 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 学习技能 Section -->
+      <section class="section skills has-before" id="skills" aria-label="skills">
+        <div class="container">
+
+          <div class="skills-content">
+            <p class="section-subtitle">技能发展</p>
+            <h2 class="h2 section-title">课程可获得能力</h2>
+            <p class="section-text">通过系统训练，学生将掌握从数据获取、分析到新闻写作及可视化展示的完整流程。</p>
+
+            <ul class="skills-list">
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">数据处理与分析</h3>
+                  <data class="skill-value" value="20%">20%</data>
+                </div>
+                <div class="progress-box">
+                  <div class="progress" style="width: 20%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">数据可视化</h3>
+                  <data class="skill-value" value="20%">20%</data>
+                </div>
+                <div class="progress-box">
+                  <div class="progress" style="width: 20%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">新闻写作与叙事</h3>
+                  <data class="skill-value" value="20%">20%</data>
+                </div>
+                <div class="progress-box">
+                  <div class="progress" style="width: 20%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">AI驱动的复杂项目处理</h3>
+                  <data class="skill-value" value="40%">40%</data>
+                </div>
+                <div class="progress-box">
+                  <div class="progress" style="width: 40%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-banner has-before"></div>
+        </div>
+      </section>
+
+      <!-- 联系 Section -->
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+            <p class="section-subtitle">联系我们</p>
+            <h2 class="h2 section-title">获取课程信息</h2>
+            <p class="section-text">如需课程大纲、上课时间、作品要求及项目合作，可通过以下方式联系教师团队。</p>
+
+            <ul class="contact-list">
+              <li><ion-icon name="mail-outline"></ion-icon> luyuanhang@scut.edu.cn</li>
+              <li><ion-icon name="call-outline"></ion-icon> 18813951080</li>
+              <li><ion-icon name="location-outline"></ion-icon> 大学城校区B9 · 南座306室</li>
+            </ul>
+          </div>
+
+          <form action="" class="contact-form">
+            <input type="text" placeholder="姓名" required class="input-field">
+            <input type="email" placeholder="邮箱" required class="input-field">
+            <textarea placeholder="留言内容" required class="input-field"></textarea>
+            <button type="submit" class="submit-btn"><span class="span">提交</span><ion-icon name="arrow-forward"></ion-icon></button>
+          </form>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">© 2025 华南理工大学新闻与传播学院 · 版权所有</p>
+    </div>
+  </footer>
+
+  <script>
+    // 添加滚动动画效果
+    document.addEventListener('DOMContentLoaded', function() {
+      // 导航栏切换功能
+      const navToggleBtn = document.querySelector('.nav-toggle-btn');
+      const navbar = document.querySelector('.navbar');
+      const navbarLinks = document.querySelectorAll('.navbar-link');
+      
+      // 切换导航菜单显示/隐藏
+      navToggleBtn.addEventListener('click', function() {
+        this.classList.toggle('active');
+        navbar.classList.toggle('active');
+        
+        // 如果是在大屏幕上，还需要处理header的active状态
+        if (window.innerWidth >= 992) {
+          document.querySelector('.header').classList.toggle('active');
+        }
+      });
+      
+      // 点击导航链接时关闭菜单
+      navbarLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          navToggleBtn.classList.remove('active');
+          navbar.classList.remove('active');
+          
+          // 如果是在大屏幕上，还需要处理header的active状态
+          if (window.innerWidth >= 992) {
+            document.querySelector('.header').classList.remove('active');
+          }
+        });
+      });
+      
+      // 滚动时更新导航状态
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 100) {
+          document.querySelector('.header').classList.add('active');
+        } else {
+          document.querySelector('.header').classList.remove('active');
+        }
+      });
+
+      // 时间线动画效果
+      const timelineItems = document.querySelectorAll('.timeline-item-custom');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      timelineItems.forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(30px)';
+        item.style.transition = 'all 0.6s ease';
+        observer.observe(item);
+      });
+
+      // 优秀作品轮播功能
+      const carouselTrack = document.getElementById('carouselTrack');
+      const carouselNav = document.getElementById('carouselNav');
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const totalItems = carouselItems.length;
+      
+      // 创建导航点
+      carouselItems.forEach((_, index) => {
+        const dot = document.createElement('div');
+        dot.classList.add('carousel-dot');
+        if (index === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goToSlide(index));
+        carouselNav.appendChild(dot);
+      });
+      
+      let currentIndex = 0;
+      const dots = document.querySelectorAll('.carousel-dot');
+      
+      function updateCarousel() {
+        const itemWidth = carouselItems[0].getBoundingClientRect().width;
+        carouselTrack.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+        
+        // 更新导航点状态
+        dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === currentIndex);
+        });
+      }
+      
+      function goToSlide(index) {
+        currentIndex = index;
+        updateCarousel();
+      }
+      
+      // 自动轮播
+      function autoSlide() {
+        currentIndex = (currentIndex + 1) % totalItems;
+        updateCarousel();
+      }
+      
+      // 每5秒自动切换
+      let slideInterval = setInterval(autoSlide, 5000);
+      
+      // 鼠标悬停时暂停自动轮播
+      const carousel = document.querySelector('.projects-carousel');
+      carousel.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+      });
+      
+      carousel.addEventListener('mouseleave', () => {
+        slideInterval = setInterval(autoSlide, 5000);
+      });
+      
+      // 响应式调整
+      window.addEventListener('resize', updateCarousel);
+    });
+  </script>
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
